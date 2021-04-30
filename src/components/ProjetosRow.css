@@ -1,0 +1,103 @@
+.Carousel{
+    overflow-x: hidden;
+}
+.corpoIW{
+    background-color: #1D1D1D;;
+    padding: 30px;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.corpoCacomp{
+    background-color: #3A3A3A;;
+    padding: 30px;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.corpoLobio{
+    background-color: #012771;;
+    padding: 30px;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.LogoPrj{
+    width: 120px;
+    margin-right: 20px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.header h3{
+    text-align: center;
+    font-size: 50px;
+    color: #CFCFCF;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.LogoSkills{
+    fill: white;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Icons p{
+    font-size: 13px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.Icons{
+    display: flex;
+    flex-direction: row;
+}
+.miniIcon{
+    margin: 15px;
+}
+.Sobre{
+    width: 600px;
+    margin-bottom: 30px;
+}
+.Direita{
+    display: flex;
+    flex-direction: column;
+}
+
+.imagemGrande{
+    width: 500px;
+}
+.Btn{
+    width: 180px;
+    height: 60px;
+    background: #dddddd;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight:bold;
+    transition: .4s;
+}
+.Btn:hover{
+   opacity: 0.5;
+   transition: .4s;
+}
+.botoes{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
