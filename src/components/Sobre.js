@@ -23,9 +23,9 @@ export default function Sobre (){
                         <h3>JOÃO PAULO CARDOSO </h3>
                         <h5>21 anos // Programador // Estudante</h5>
                         <div className="Redes">
-                            <button className="BtnIcon"><IconEmail className="IconeBotao" /> </button>
-                            <button className="BtnIcon"> <GitIcon className="IconeBotao" /> </button>
-                            <button className="BtnIcon"> <IconLKIN className="IconeBotao"/> </button>
+                            <a href="mailto:joao.paulo@uel.br" ><button className="BtnIcon"><IconEmail className="IconeBotao" /> </button></a>
+                            <a href="https://github.com/joaopaulocsouza/IEEEWars"  target="_blank"><button className="BtnIcon"> <GitIcon className="IconeBotao" /> </button></a>
+                            <a href="https://www.linkedin.com/in/joão-paulo-cardoso-997340185/"  target="_blank"><button className="BtnIcon"> <IconLKIN className="IconeBotao" /> </button></a>
                         </div>
                     </div>
                 </div>

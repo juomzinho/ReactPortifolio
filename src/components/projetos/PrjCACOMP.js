@@ -56,7 +56,7 @@ export default function PrjCACOMP (){
             <img src={ImgCACOMP} className="imagemGrande" alt="Imagem Exemplo"/>
             <div className="botoes">
                      <a href="http://www.uel.br/centroacademico/cacomp/index.html" target="blank"><button className="Btn">Acessar Site</button></a>
-                    <a href="" target="blank"><button className="Btn">Ver no Github</button></a>
+                    <a href="https://github.com/joaopaulocsouza/CACOMP" target="blank"><button className="Btn">Ver no Github</button></a>
             </div>
             </div>
             </div>

@@ -49,8 +49,8 @@ export default function PrjIEEEWARS (){
             <div className="Direita">
                 <img src={ImgIW} className="imagemGrande" alt="Imagem Exemplo"/>
                 <div className="botoes">
-                <a href="http://www.uel.br/centroacademico/cacomp/index.html" target="blank"><button className="Btn">Ver Protótipo</button></a>
-                    <a href="" target="blank"><button className="Btn">Ver no Github</button></a>
+                    <a href="https://www.figma.com/file/cAqAIJ5VoeB7C9Lk4C6Dzs/oi-(Copy)" target="blank"><button className="Btn">Ver Protótipo</button></a>
+                    <a href="https://github.com/juomzinho/IEEE-Wars" target="blank"><button className="Btn">Ver no Github</button></a>
                 </div>
             </div>
             </div>

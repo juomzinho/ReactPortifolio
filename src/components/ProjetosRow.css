@@ -20,8 +20,8 @@
 }
 .corpoCacomp{
     align-items: center;
-    background: rgb(186,0,196);
-    background: linear-gradient(223deg, rgba(186,0,196,1) 0%, rgba(58,58,58,1) 100%);
+    background: rgb(183,0,251);
+background: linear-gradient(223deg, rgba(183,0,251,1) 0%, rgba(42,40,42,1) 100%);
     padding: 30px;
     height: 100vh;
     width: 100vw;
@@ -184,6 +184,27 @@
     width: 500px;
 }
 
+.Barras{
+    position: absolute;
+    bottom: 10px;
+    right: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.BarraSlide{
+    margin: 10px;
+    width: 60px;
+    height: 5px;
+    background: #FFF;
+}
+
+.Active{
+    width: 60px;
+    height: 5px;
+    background: #000
+}
+
 @media screen and (max-width: 767px) {
     
     .corpoIW{
@@ -203,13 +224,13 @@
         width: 100vw;
     }
     .LogoPrj{
-        width: 60px;
+        width: 80px;
     }
     .header{
         margin-bottom: 20px;
     }
     .header h3{
-        font-size: 15px;
+        font-size: 20px;
     }
     .Esquerda{
         width: 98%;
@@ -241,12 +262,13 @@
         margin-bottom: 10px;
     }
     .Sobre p{
-        font-size: 15px;
+        font-size: 10px;
     }
     .Esquerda h2{
-        font-size: 20px;
+        font-size: 15px;
     }
     .Direita{
+        margin-top: 0;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -255,25 +277,21 @@
         margin-top: -20px;
         transform: scale(.9);
     }
-}
 
-.Barras{
-    position: absolute;
-    bottom: 10px;
-    right: 100px;
-    display: flex;
-    flex-direction: row;
-}
+    .Barras{
+        width: 60px;
+        right: 15px;
+    }
 
-.BarraSlide{
-    margin: 10px;
-    width: 60px;
-    height: 5px;
-    background: #FFF;
-}
+    .BarraSlide{
+        margin: 5px;
+        width: 40px;
+        height: 3px;
+    }
 
-.Active{
-    width: 60px;
-    height: 5px;
-    background: #000
+    .Active{
+        margin: 5px;
+        width: 40px;
+        height: 3px;
+    }
 }
