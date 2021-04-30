@@ -1,17 +1,24 @@
 .Carousel{
     overflow-x: hidden;
 }
+
+.slides{
+    transition: .5s
+}
+
 .corpoIW{
+    align-items: center;
     background-color: #1D1D1D;;
-    padding: 30px;
     height: 100vh;
-    width: 100vw;
+    min-width: 100vw;
     overflow: hidden;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    transition: .5s
 }
 .corpoCacomp{
+    align-items: center;
     background-color: #3A3A3A;;
     padding: 30px;
     height: 100vh;
@@ -20,9 +27,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    transition: .5s
 }
 
 .corpoLobio{
+    align-items: center;
     background-color: #012771;;
     padding: 30px;
     height: 100vh;
@@ -31,9 +40,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    transition: .5s
 }
 .LogoPrj{
-    width: 120px;
+    width: 100px;
     margin-right: 20px;
 }
 .header{
@@ -44,11 +54,12 @@
 }
 .header h3{
     text-align: center;
-    font-size: 50px;
+    font-size: 35px;
     color: #CFCFCF;
     margin-top: auto;
     margin-bottom: auto;
 }
+
 
 .LogoSkills{
     fill: white;
@@ -100,4 +111,59 @@
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+}
+
+.imagemGrande{
+    transition: .4s;
+}
+
+.imagemGrande:hover{
+    transform: scale(1.1);
+    transition: .4s;
+}
+
+.Carousel{
+    position: relative;
+    transition: .5s;
+    display: flex;
+}
+
+#BtnEsq{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    top: 5%;
+    right: 70px;
+    background: white;
+    opacity: 0.6;
+    cursor: pointer;
+}
+#BtnDir{
+    opacity: 0.6;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    top: 5%;
+    right:10px;
+    background: white;
+    cursor: pointer;
+}
+#BtnDir:hover{
+    opacity: 1;
+}
+#BtnEsq:hover{
+    opacity: 1;
+}
+
+.SetaClasse{
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Esquerda{
+    width: 500px;
 }

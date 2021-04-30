@@ -1,0 +1,18 @@
+.Corpo{
+    width: 100%;
+    height: 100vh;
+    background: rgb(0,22,80);
+    background: linear-gradient(27deg, rgba(0,22,80,1) 0%, rgba(0,48,172,1) 100%);
+    align-items: center;
+    justify-content: center;
+}
+
+.ImgClass img{
+    height: 100vh;
+    margin-left: 100px;
+    margin-right: auto;
+}
+.ImgClass{
+    margin-left: auto;
+    margin-right: auto;
+}
