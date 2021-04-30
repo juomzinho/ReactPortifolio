@@ -30,7 +30,7 @@ export default function Sobre (){
                     </div>
                 </div>
                 <div className="Habilidades">
-                    <h2>Ferramentas dominadas</h2>
+                    <h2>Habilidades</h2>
                     <div className="IconesHabilidades">
                         <div className="IconeHabilidades">
                             <IconeHtml className="IconeIcon" />
@@ -68,7 +68,30 @@ export default function Sobre (){
                 </div>
             </div>
             <div className="DireitaSobre">
-                
+                <div className="Categoria">
+                    <h3>Formação</h3>
+                    <div className="Barra" />
+                    <div className="Informacao">
+                        <h5>Ciência da Computação - UEL</h5>
+                        <p>Discente, 2º Ano</p>
+                    </div>
+                </div>
+                <div className="Categoria">
+                    <h3>Certificados</h3>
+                    <div className="Barra" />
+                    <div className="Informacao">
+                        <h5>Web moderno completo com javascript - udemy</h5>
+                        <p>conteúdo do curso: html, css, javascript, react, vue.js, banco de dados (relacionais e não relacionais).</p>
+                    </div>
+                    <div className="Informacao">
+                        <h5>web design - udemy</h5>
+                        <p>conteúdo do curso: html, css, javascript, php.</p>
+                    </div>
+                    <div className="Informacao">
+                        <h5>latinoware 2018</h5>
+                        <p>Congresso de software livre e tecnologia aberta.</p>
+                    </div>
+                </div>
             </div>
         </div>
     )

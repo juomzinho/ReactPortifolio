@@ -49,8 +49,8 @@ export default function PrjIEEEWARS (){
             <div className="Direita">
                 <img src={ImgIW} className="imagemGrande" alt="Imagem Exemplo"/>
                 <div className="botoes">
-                    <button className="Btn">Ver no GitHub</button>
-                    <button className="Btn">Ver Protótipo</button>
+                <a href="http://www.uel.br/centroacademico/cacomp/index.html" target="blank"><button className="Btn">Ver Protótipo</button></a>
+                    <a href="" target="blank"><button className="Btn">Ver no Github</button></a>
                 </div>
             </div>
             </div>

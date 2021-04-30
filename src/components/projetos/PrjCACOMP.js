@@ -40,7 +40,7 @@ export default function PrjCACOMP (){
                 </div>
                 <div className="miniIcon">
                     <LogoJs fill="white" className="LogoSkills"/>
-                    <p>JavaScript</p>
+                    <p>JS</p>
                 </div>
                 <div className="miniIcon">
                     <LogoPHP fill="white" className="LogoSkills"/>
@@ -55,8 +55,8 @@ export default function PrjCACOMP (){
             <div className="Direita">
             <img src={ImgCACOMP} className="imagemGrande" alt="Imagem Exemplo"/>
             <div className="botoes">
-                <button className="Btn">Acessar Site</button>
-                <button className="Btn">Ver no GitHub</button>
+                     <a href="http://www.uel.br/centroacademico/cacomp/index.html" target="blank"><button className="Btn">Acessar Site</button></a>
+                    <a href="" target="blank"><button className="Btn">Ver no Github</button></a>
             </div>
             </div>
             </div>

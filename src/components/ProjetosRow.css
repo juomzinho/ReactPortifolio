@@ -67,6 +67,7 @@
 .LogoSkills{
     fill: white;
     width: 50px;
+    height: 50px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -79,7 +80,7 @@
 }
 .Icons{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
 }
 .miniIcon{
     margin: 15px;
@@ -133,8 +134,8 @@
 
 #BtnEsq{
     position: absolute;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius: 25px;
     border: none;
     top: 5%;
@@ -146,8 +147,8 @@
 #BtnDir{
     opacity: 0.6;
     position: absolute;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius: 25px;
     border: none;
     top: 5%;
@@ -155,6 +156,18 @@
     background: white;
     cursor: pointer;
 }
+
+.BtnCarrosel{
+    justify-content: center;
+    align-items: center;
+}
+
+.BtnCarrosel img{
+    margin: 0;
+    width: 15px;
+}
+
+
 #BtnDir:hover{
     opacity: 1;
 }
@@ -201,24 +214,16 @@
     .Esquerda{
         width: 98%;
     }
-    .LogoSkills{
-        width: 20px;
-        height: 20px;
-    }
-    .Icons p{
-        font-size: 13px;
-        width: 20px;
-    }
-    .Icons{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .miniIcon{
-        text-align: center;
-        justify-content: center;
-    }
     .imagemGrande{
+        margin-top: -40px;
         width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .miniIcon{
+        transform: scale(0.6);
+        margin: 5px;
     }
     
     .imagemGrande:hover{
@@ -228,6 +233,8 @@
         width: 100px;
         height: 40px;
         margin: 10px;
+        text-align: center;
+        text-decoration: none;
     }
     .Sobre{
         width: 300px;
@@ -239,4 +246,34 @@
     .Esquerda h2{
         font-size: 20px;
     }
+    .Direita{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .botoes{
+        margin-top: -20px;
+        transform: scale(.9);
+    }
+}
+
+.Barras{
+    position: absolute;
+    bottom: 10px;
+    right: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.BarraSlide{
+    margin: 10px;
+    width: 60px;
+    height: 5px;
+    background: #FFF;
+}
+
+.Active{
+    width: 60px;
+    height: 5px;
+    background: #000
 }

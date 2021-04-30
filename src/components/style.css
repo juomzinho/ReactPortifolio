@@ -1,20 +1,41 @@
 .Corpo{
+    position: relative;
     width: 100%;
     height: 100vh;
+    overflow-x: hidden;
     background: rgb(0,22,80);
     background: linear-gradient(27deg, rgba(0,22,80,1) 0%, rgba(0,48,172,1) 100%);
-    align-items: center;
-    justify-content: center;
+}
+
+.BtnDescer{
+    position: absolute;
+    top: 85vh;
+    left: calc(50vw - 20px);
+    animation: AnimacaoBTNDESCER 1.5s infinite;
+    transition: .4s;
+}
+
+.BtnDescer img{
+    width: 40px;
+    height: 40px;
+    color: white;
+}
+
+@keyframes AnimacaoBTNDESCER {
+    0%{margin-top: -10px;}
+    50%{margin-top: 10px; }
+    100%{margin-top: -9.999999px;}
 }
 
 .ImgClass img{
-    height: 100vh;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
 }
+
 .ImgClass{
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 20vh;
 }
 .corpoRodape{
     width: 100%;
@@ -22,7 +43,7 @@
     text-align: center;
     background: #3a3a3a;
 }
-::-webkit-scrollbar{
+/* ::-webkit-scrollbar{
    display: none;
 }
 ::-webkit-scrollbar-thumb{
@@ -30,14 +51,17 @@
 }
 ::-webkit-scrollbar-track{
     display: none;
-}
+} */
 
 @media screen and (max-width: 767px) {
     .ImgClass img{
-        height: auto;
-        width: 90vw;
-        margin-left: 5vw;
+        width: 100%;
+    }
+    
+    .ImgClass{
+        width: 80%;
+        margin-left: auto;
         margin-right: auto;
-        bottom: 0px;
+        padding-top: 20vh;
     }
 }
