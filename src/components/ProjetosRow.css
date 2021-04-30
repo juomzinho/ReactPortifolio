@@ -8,7 +8,8 @@
 
 .corpoIW{
     align-items: center;
-    background-color: #1D1D1D;;
+    background: rgb(59,57,57);
+    background: linear-gradient(223deg, rgba(59,57,57,1) 0%, rgba(29,29,29,1) 100%);
     height: 100vh;
     min-width: 100vw;
     overflow: hidden;
@@ -19,7 +20,8 @@
 }
 .corpoCacomp{
     align-items: center;
-    background-color: #3A3A3A;;
+    background: rgb(186,0,196);
+    background: linear-gradient(223deg, rgba(186,0,196,1) 0%, rgba(58,58,58,1) 100%);
     padding: 30px;
     height: 100vh;
     width: 100vw;
@@ -32,7 +34,8 @@
 
 .corpoLobio{
     align-items: center;
-    background-color: #012771;;
+    background: rgb(0,67,196);
+    background: linear-gradient(223deg, rgba(0,67,196,1) 0%, rgba(1,39,113,1) 100%);
     padding: 30px;
     height: 100vh;
     width: 100vw;
@@ -166,4 +169,74 @@
 }
 .Esquerda{
     width: 500px;
+}
+
+@media screen and (max-width: 767px) {
+    
+    .corpoIW{
+
+        height: 100vh;
+        min-width: 100vw;
+        padding: 25px;
+    }
+    .corpoCacomp{
+        padding: 25px;
+        height: 100vh;
+        width: 100vw;
+    }
+    .corpoLobio{
+        padding: 25px;
+        height: 100vh;
+        width: 100vw;
+    }
+    .LogoPrj{
+        width: 60px;
+    }
+    .header{
+        margin-bottom: 20px;
+    }
+    .header h3{
+        font-size: 15px;
+    }
+    .Esquerda{
+        width: 98%;
+    }
+    .LogoSkills{
+        width: 20px;
+        height: 20px;
+    }
+    .Icons p{
+        font-size: 13px;
+        width: 20px;
+    }
+    .Icons{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .miniIcon{
+        text-align: center;
+        justify-content: center;
+    }
+    .imagemGrande{
+        width: 200px;
+    }
+    
+    .imagemGrande:hover{
+        transform: scale(1);
+    }
+    .Btn{
+        width: 100px;
+        height: 40px;
+        margin: 10px;
+    }
+    .Sobre{
+        width: 300px;
+        margin-bottom: 10px;
+    }
+    .Sobre p{
+        font-size: 15px;
+    }
+    .Esquerda h2{
+        font-size: 20px;
+    }
 }

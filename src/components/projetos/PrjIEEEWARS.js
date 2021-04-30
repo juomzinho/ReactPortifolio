@@ -50,6 +50,7 @@ export default function PrjIEEEWARS (){
                 <img src={ImgIW} className="imagemGrande" alt="Imagem Exemplo"/>
                 <div className="botoes">
                     <button className="Btn">Ver no GitHub</button>
+                    <button className="Btn">Ver Protótipo</button>
                 </div>
             </div>
             </div>

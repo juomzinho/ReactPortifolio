@@ -9,10 +9,35 @@
 
 .ImgClass img{
     height: 100vh;
-    margin-left: 100px;
+    margin-left: auto;
     margin-right: auto;
 }
 .ImgClass{
     margin-left: auto;
     margin-right: auto;
+}
+.corpoRodape{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background: #3a3a3a;
+}
+::-webkit-scrollbar{
+   display: none;
+}
+::-webkit-scrollbar-thumb{
+    display: none;
+}
+::-webkit-scrollbar-track{
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .ImgClass img{
+        height: auto;
+        width: 90vw;
+        margin-left: 5vw;
+        margin-right: auto;
+        bottom: 0px;
+    }
 }
