@@ -48,7 +48,7 @@ export default function App (){
       <div ref={RolagemContainer} >
           {CarrosselHome.map((item,index)=>{
                 return(
-                    <div key={index}>
+                    <div key={index} >
                         {item}
                     </div>
                 )

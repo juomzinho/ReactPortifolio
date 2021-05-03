@@ -9,6 +9,7 @@ body{
   color: white;
   font-family: 'Secular One', sans-serif;
   overscroll-behavior-y: none;
+  position: relative;
 }
 
 .App{

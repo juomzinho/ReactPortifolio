@@ -11,6 +11,7 @@ import {ReactComponent as IconeReact} from '../icons/react-brands.svg'
 import {ReactComponent as IconeGit} from '../icons/git-alt-brands.svg'
 import {ReactComponent as IconeJava} from '../icons/java-brands.svg'
 import {ReactComponent as IconeFigma} from '../icons/figma-brands.svg'
+import {ReactComponent as IconePs} from '../icons/ps-brands.svg'
 
 
 export default function Sobre (){
@@ -63,6 +64,10 @@ export default function Sobre (){
                         <div className="IconeHabilidades">
                             <IconeFigma className="IconeIcon" />
                             <p>Figma</p>
+                        </div>
+                        <div className="IconeHabilidades" >
+                            <IconePs className="IconeIcon" fill="white" />
+                            <p>Photoshop</p>
                         </div>
                     </div>
                 </div>

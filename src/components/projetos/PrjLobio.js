@@ -17,13 +17,7 @@ export default function PrjLobio (){
             </div>
             <div className="Sobre">
                 <h2>Sobre</h2>
-                <p>
-                Que o caminho da cura pode ser a doença
-                Que o caminho do perdão às vezes é a sentença
-                Desavença, treta e falsa união
-                A ambição é como um véu que cega os irmãos
-                Que nem um carro guiado na estrada da vida
-                Sem farol no deserto das trevas perdidas.
+                <p>Esse projeto tem como finalidade desenvolver um site institucional para o Lobio UEL, inicialmente foi planejado para conter informações sobre o laboratório além de divulgar pesquisas e projetos realizados por seus colaboradores. Ainda em desenvolvimento existem novas funcionalidades sendo implementadas no projeto. 
                 </p>
             </div>
             <div className="Skills">
