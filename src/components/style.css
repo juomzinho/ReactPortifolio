@@ -16,15 +16,15 @@
 }
 
 .BtnDescer img{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     color: white;
 }
 
 @keyframes AnimacaoBTNDESCER {
-    0%{margin-top: -10px;}
-    50%{margin-top: 10px; }
-    100%{margin-top: -9.999999px;}
+    0%{margin-top: -15px; opacity: 1;}
+    50%{margin-top: 0px; opacity: 1; }
+    100%{margin-top: 15px; opacity: 0;}
 }
 
 .ImgClass img{
@@ -39,19 +39,29 @@
 }
 .corpoRodape{
     width: 100%;
-    padding: 10px;
     text-align: center;
-    background: #3a3a3a;
+    background: #000;
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+    padding: 10px;
 }
-/* ::-webkit-scrollbar{
-   display: none;
+
+.corpoRodape a{
+    text-decoration: none;
+    color: white;
 }
-::-webkit-scrollbar-thumb{
-    display: none;
+.corpoRodape strong{
+    font-weight: 500;
+}   
+
+.RodapeEsq{
+    text-align: left;
 }
-::-webkit-scrollbar-track{
-    display: none;
-} */
+.RodapeDir{
+    text-align: right;
+}
+
 
 @media screen and (max-width: 767px) {
     .ImgClass img{
@@ -63,5 +73,8 @@
         margin-left: auto;
         margin-right: auto;
         padding-top: 20vh;
+    }
+    .corpoRodape{
+        flex-direction: column-reverse;
     }
 }

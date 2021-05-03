@@ -16,13 +16,7 @@ export default function PrjIEEEWARS (){
             </div>
             <div className="Sobre">
                 <h2>Sobre</h2>
-                <p>
-                Que o caminho da cura pode ser a doença
-                Que o caminho do perdão às vezes é a sentença
-                Desavença, treta e falsa união
-                A ambição é como um véu que cega os irmãos
-                Que nem um carro guiado na estrada da vida
-                Sem farol no deserto das trevas perdidas.
+                <p>O aplicativo IEEEWars faz parte de um projeto do Ramo Estudantil IEEE da UEL, a finalidade desse projeto é desenvolver um jogo de gamificação que tenha relação com a pontuação de cada membro baseada em suas atividades realizadas dentro do ramo, nesse projeto faço parte do desenvolvimento do front-end. 
                 </p>
             </div>
             <div className="Skills">
@@ -49,8 +43,8 @@ export default function PrjIEEEWARS (){
             <div className="Direita">
                 <img src={ImgIW} className="imagemGrande" alt="Imagem Exemplo"/>
                 <div className="botoes">
-                    <a href="https://www.figma.com/file/cAqAIJ5VoeB7C9Lk4C6Dzs/oi-(Copy)" target="blank"><button className="Btn">Ver Protótipo</button></a>
-                    <a href="https://github.com/juomzinho/IEEE-Wars" target="blank"><button className="Btn">Ver no Github</button></a>
+                    <a href="https://www.figma.com/file/cAqAIJ5VoeB7C9Lk4C6Dzs/oi-(Copy)" rel="noreferrer" target="_blank"><button className="Btn">Ver Protótipo</button></a>
+                    <a href="https://github.com/juomzinho/IEEE-Wars" rel="noreferrer" target="_blank"><button className="Btn">Ver no Github</button></a>
                 </div>
             </div>
             </div>

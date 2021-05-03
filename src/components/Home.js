@@ -1,9 +1,8 @@
-import React, {useState} from 'react'
+import React from 'react'
 import './style.css'
 import ImgBanner from '../images/background.png'
 import ImgBannerMB from '../images/background-mb.png'
-import SetaBaixo from '../icons/chevron-circle-down-solid.svg'
-import {Dimensions} from 'react'
+import SetaBaixo from '../icons/chevron-down-solid.svg'
 
 export default function Home (){
 
@@ -26,8 +25,7 @@ export default function Home (){
             <div className="ImgClass">
                 {ImagemFundo()}
             </div>
-            <div className="BtnDescer" >
-                <img src={SetaBaixo} />
+            <div className="BtnDescer" ><img src={SetaBaixo} alt="" />
             </div>
         </div>
     )

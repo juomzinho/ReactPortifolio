@@ -8,6 +8,27 @@ body{
   background-color: #3A3A3A;
   color: white;
   font-family: 'Secular One', sans-serif;
-  overflow-x: hidden;
+  overscroll-behavior-y: none;
 }
 
+.App{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+::-webkit-scrollbar{
+  width: 8px;
+  background-color: #000000;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #cacaca;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-track{
+  border-radius: 5px;
+  background: #2a2a2a;
+}

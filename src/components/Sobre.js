@@ -24,8 +24,8 @@ export default function Sobre (){
                         <h5>21 anos // Programador // Estudante</h5>
                         <div className="Redes">
                             <a href="mailto:joao.paulo@uel.br" ><button className="BtnIcon"><IconEmail className="IconeBotao" /> </button></a>
-                            <a href="https://github.com/joaopaulocsouza/IEEEWars"  target="_blank"><button className="BtnIcon"> <GitIcon className="IconeBotao" /> </button></a>
-                            <a href="https://www.linkedin.com/in/joão-paulo-cardoso-997340185/"  target="_blank"><button className="BtnIcon"> <IconLKIN className="IconeBotao" /> </button></a>
+                            <a href="https://github.com/juomzinho/" rel="noreferrer" target="_blank"><button className="BtnIcon"> <GitIcon className="IconeBotao" /> </button></a>
+                            <a href="https://www.linkedin.com/in/joão-paulo-cardoso-997340185/" rel="noreferrer" target="_blank"><button className="BtnIcon"> <IconLKIN className="IconeBotao" /> </button></a>
                         </div>
                     </div>
                 </div>
@@ -77,8 +77,16 @@ export default function Sobre (){
                     </div>
                 </div>
                 <div className="Categoria">
-                    <h3>Certificados</h3>
+                    <h3>Experiência</h3>
                     <div className="Barra" />
+                    <div className="Informacao">
+                        <h5>Membro Voluntário - Ramo Estudantil IEEE UEL</h5>
+                        <p>Periodo em atividade: 2019 - atualmente.</p>
+                    </div>
+                    <div className="Informacao">
+                        <h5>Diretor de Marketing - CACOMP UEL</h5>
+                        <p>Periodo em atividade: 2019.</p>
+                    </div>
                     <div className="Informacao">
                         <h5>Web moderno completo com javascript - udemy</h5>
                         <p>conteúdo do curso: html, css, javascript, react, vue.js, banco de dados (relacionais e não relacionais).</p>
@@ -90,6 +98,10 @@ export default function Sobre (){
                     <div className="Informacao">
                         <h5>latinoware 2018</h5>
                         <p>Congresso de software livre e tecnologia aberta.</p>
+                    </div>
+                    <div className="Informacao">
+                        <h5>Compdays 2018</h5>
+                        <p>Evento com foco no desenvolvimento e aprofundamento dos participantes nos tópicos e atividades de Ciência da Computação.</p>
                     </div>
                 </div>
             </div>

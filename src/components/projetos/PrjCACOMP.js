@@ -18,13 +18,7 @@ export default function PrjCACOMP (){
             </div>
             <div className="Sobre">
             <h2>Sobre</h2>
-            <p>
-            Que o caminho da cura pode ser a doença
-            Que o caminho do perdão às vezes é a sentença
-            Desavença, treta e falsa união
-            A ambição é como um véu que cega os irmãos
-            Que nem um carro guiado na estrada da vida
-            Sem farol no deserto das trevas perdidas.
+            <p>Durante meu mandato com diretor de marketing do CACOMP, uma de minhas atividades foi desenvolver o site da nossa organização. O site tem como finalidade, divulgar informações sobre C.A. e eventos, além disso o site conta com um sistema de cadastro e login para discentes do curso de Ciência da Computação  da UEL. 
             </p>
             </div>
             <div className="Skills">
@@ -55,8 +49,8 @@ export default function PrjCACOMP (){
             <div className="Direita">
             <img src={ImgCACOMP} className="imagemGrande" alt="Imagem Exemplo"/>
             <div className="botoes">
-                     <a href="http://www.uel.br/centroacademico/cacomp/index.html" target="blank"><button className="Btn">Acessar Site</button></a>
-                    <a href="https://github.com/joaopaulocsouza/CACOMP" target="blank"><button className="Btn">Ver no Github</button></a>
+                     <a href="http://www.uel.br/centroacademico/cacomp/index.html" rel="noreferrer" target="_blank"><button className="Btn">Acessar Site</button></a>
+                    <a href="https://github.com/joaopaulocsouza/CACOMP" rel="noreferrer" target="_blank"><button className="Btn">Ver no Github</button></a>
             </div>
             </div>
             </div>

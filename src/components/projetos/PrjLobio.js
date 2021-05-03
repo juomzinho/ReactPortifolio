@@ -54,8 +54,8 @@ export default function PrjLobio (){
             <div className="Direita">
                 <img src={ImgLobio} className="imagemGrande" alt="Imagem Exemplo"/>
                 <div className="botoes">
-                    <a href="http://www.lobio.com.br" target="blank"><button className="Btn">Acessar Site</button></a>
-                    <a href="https://github.com/juomzinho/Site-Lobio" target="blank"><button className="Btn">Ver no Github</button></a>
+                    <a href="http://www.lobio.com.br" rel="noreferrer" target="_blank"><button className="Btn">Acessar Site</button></a>
+                    <a href="https://github.com/juomzinho/Site-Lobio" rel="noreferrer" target="_blank"><button className="Btn">Ver no Github</button></a>
                 </div>
             </div>
             </div>
