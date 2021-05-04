@@ -25,7 +25,8 @@ export default function Home (){
             <div className="ImgClass">
                 {ImagemFundo()}
             </div>
-            <div className="BtnDescer" ><img src={SetaBaixo} alt="" />
+            <div className="BtnDescer" >
+               <a href="#sobreApp"> <img src={SetaBaixo} alt="" /></a>
             </div>
         </div>
     )

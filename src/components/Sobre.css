@@ -47,15 +47,9 @@
     fill: #3a3a3a;
 }
 
-.IconeHabilidades{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin: 10px;
-}
 .IconeIcon{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -64,11 +58,22 @@
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    width: 450px;
+    margin: 15px 0;
+}
+.IconeHabilidade{
+    height: 60px;
+    width: 60px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 3px;
+    /* background: tan; */
 }
 
 .Habilidades{
     padding: 20px;
+    width: 480px;
 }
 
 .DireitaSobre{
@@ -80,19 +85,21 @@
 }
 .Barra{
     width: 100%;
-    height: 5px;
+    margin:5px 0;
+    height: 1px;
     background: white;
     border-radius: 10px;
 }
 
 .Categoria h3{
-    font-size: 20px;
+    margin-top:15px;
+    font-size: 15px;
     text-transform: uppercase;
 }
 
 .Informacao{
-    margin-left:20px;
-    padding: 10px;
+    /* margin-left:20px; */
+    padding: 5px 0px;
     text-transform: uppercase;
 }
 
@@ -101,12 +108,13 @@
 }
 
 .Informacao h5{
-    font-size: 15px;
+    
+    font-size: 12px;
     font-weight: 500;
 }
 
 .Informacao p{
-    font-size: 13px;
+    font-size: 11px;
     color: #9F9F9F;
 }
 

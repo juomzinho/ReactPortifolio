@@ -33,39 +33,39 @@ export default function Sobre (){
                 <div className="Habilidades">
                     <h2>Habilidades</h2>
                     <div className="IconesHabilidades">
-                        <div className="IconeHabilidades">
+                        <div className="IconeHabilidade">
                             <IconeHtml className="IconeIcon" />
                             <p>HTML</p>
                         </div>
-                        <div className="IconeHabilidades">
+                        <div className="IconeHabilidade">
                             <IconeCSS className="IconeIcon" />
                             <p>CSS</p>
                         </div>
-                        <div className="IconeHabilidades">
+                        <div className="IconeHabilidade">
                             <IconeJS  className="IconeIcon"/>
                             <p>JS</p>
                         </div>
-                        <div className="IconeHabilidades">
+                        <div className="IconeHabilidade">
                             <IconeReact className="IconeIcon" />
                             <p>React</p>
                         </div>
-                        <div className="IconeHabilidades">
+                        <div className="IconeHabilidade">
                             <IconeReact className="IconeIcon" />
                             <p>React <br/> Native</p>
                         </div>
-                        <div className="IconeHabilidades">
+                        <div className="IconeHabilidade">
                             <IconeGit className="IconeIcon" />
                             <p>Git</p>
                         </div>
-                        <div className="IconeHabilidades">
+                        <div className="IconeHabilidade">
                             <IconeJava className="IconeIcon" />
                             <p>Java</p>
                         </div>
-                        <div className="IconeHabilidades">
+                        <div className="IconeHabilidade">
                             <IconeFigma className="IconeIcon" />
                             <p>Figma</p>
                         </div>
-                        <div className="IconeHabilidades" >
+                        <div className="IconeHabilidade" >
                             <IconePs className="IconeIcon" fill="white" />
                             <p>Photoshop</p>
                         </div>
