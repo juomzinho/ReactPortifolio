@@ -141,8 +141,7 @@
     border: none;
     top: 5%;
     right: 60px;
-    border: solid 1px white;
-    background: none;
+    background: white;
     cursor: pointer;
     transition: .4s;
 }
@@ -153,9 +152,8 @@
     border-radius: 25px;
     border: none;
     top: 5%;
-    border: solid 1px white;
     right:10px;
-    background: none;
+    background: white;
     cursor: pointer;
     transition: .4s;
 }
@@ -172,13 +170,11 @@
 
 
 #BtnDir:hover{
-    opacity: 1;
-    background: white;
+    opacity: 0.6;
     transition: .4s;
 }
 #BtnEsq:hover{
-    opacity: 1;
-    background: white;
+    opacity: 0.6;
     transition: .4s;
 }
 

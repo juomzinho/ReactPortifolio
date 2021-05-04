@@ -12,6 +12,7 @@ import {ReactComponent as IconeGit} from '../icons/git-alt-brands.svg'
 import {ReactComponent as IconeJava} from '../icons/java-brands.svg'
 import {ReactComponent as IconeFigma} from '../icons/figma-brands.svg'
 import {ReactComponent as IconePs} from '../icons/ps-brands.svg'
+import {ReactComponent as IconeMySql} from '../icons/MySql-brands.svg'
 
 
 export default function Sobre (){
@@ -61,6 +62,10 @@ export default function Sobre (){
                             <IconeJava className="IconeIcon" />
                             <p>Java</p>
                         </div>
+                        <div className="IconeHabilidade" >
+                            <IconeMySql className="IconeIcon" fill="white" />
+                            <p>MySql</p>
+                        </div>
                         <div className="IconeHabilidade">
                             <IconeFigma className="IconeIcon" />
                             <p>Figma</p>
@@ -68,6 +73,9 @@ export default function Sobre (){
                         <div className="IconeHabilidade" >
                             <IconePs className="IconeIcon" fill="white" />
                             <p>Photoshop</p>
+                        </div>
+                        <div>
+                            <p><strong>Outros:</strong> Boa Lógica de programação</p>
                         </div>
                     </div>
                 </div>

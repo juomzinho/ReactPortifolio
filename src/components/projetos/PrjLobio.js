@@ -4,7 +4,7 @@ import {ReactComponent as LogoHTML} from '../../icons/html5-brands.svg'
 import {ReactComponent as LogoCSS} from '../../icons/css3-alt-brands.svg'
 import {ReactComponent as LogoJs} from '../../icons/js-square-brands.svg'
 import {ReactComponent as LogoGit} from '../../icons/git-alt-brands.svg'
-import {ReactComponent as LogoBD} from '../../icons/database-solid.svg'
+import {ReactComponent as LogoBD} from '../../icons/MySql-brands.svg'
 import ImgLobio from '../../images/miniLobio.png'
 import '../ProjetosRow.css'
 
@@ -41,7 +41,7 @@ export default function PrjLobio (){
                     </div>
                     <div className="miniIcon">
                         <LogoBD fill="white" className="LogoSkills"/>
-                        <p>Database</p>
+                        <p>MySql</p>
                     </div>
                 </div>
             </div></div>

@@ -3,7 +3,7 @@ import LogoIW from '../../images/logoieeeWars.png'
 import {ReactComponent as LogoReact} from '../../icons/react-brands.svg'
 import {ReactComponent as LogoJs} from '../../icons/js-square-brands.svg'
 import {ReactComponent as LogoGit} from '../../icons/git-alt-brands.svg'
-import {ReactComponent as LogoBD} from '../../icons/database-solid.svg'
+import {ReactComponent as LogoBD} from '../../icons/MySql-brands.svg'
 import ImgIW from '../../images/miniIeeeWars.png'
 import '../ProjetosRow.css'
 
@@ -36,7 +36,7 @@ export default function PrjIEEEWARS (){
                     </div>
                     <div className="miniIcon">
                         <LogoBD fill="white" className="LogoSkills"/>
-                        <p>Database</p>
+                        <p>MySql</p>
                     </div>
                 </div>
             </div></div>
