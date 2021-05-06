@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap');
 .Carousel{
     overflow-x: hidden;
 }
@@ -104,6 +105,7 @@
     cursor: pointer;
     font-weight:bold;
     transition: .4s;
+    font-family: 'Poppins', sans-serif;
 }
 .BtnIcon{
     width: 50px;
@@ -213,19 +215,18 @@
 @media screen and (max-width: 767px) {
     
     .corpoIW{
-
-        height: 100vh;
-        min-width: 100vw;
+        min-height: 75vh;
+        width: 100vw;
         padding: 25px;
     }
     .corpoCacomp{
         padding: 25px;
-        height: 100vh;
+        min-height: 75vh;
         width: 100vw;
     }
     .corpoLobio{
         padding: 25px;
-        height: 100vh;
+        min-height: 75vh;
         width: 100vw;
     }
     .LogoPrj{
@@ -236,6 +237,8 @@
     }
     .header h3{
         font-size: 20px;
+        color: white;
+        margin-left: -10px;
     }
     .Esquerda{
         width: 98%;
@@ -261,6 +264,8 @@
         margin: 10px;
         text-align: center;
         text-decoration: none;
+        font-size: 11px;
+        font-family:  'Poppins';
     }
     .Sobre{
         width: 300px;
@@ -284,8 +289,8 @@
     }
 
     .Barras{
-        width: 60px;
-        right: 15px;
+        width: 80px;
+        left: calc(50vw - 40px);
         bottom: 30px;
     }
 
@@ -299,5 +304,19 @@
         margin: 5px;
         width: 40px;
         height: 3px;
+    }
+
+    #BtnEsq{
+        width: 30px;
+        height: 30px;
+        top: 75px;
+        right: 50px;
+        transition: .4s;
+    }
+    #BtnDir{
+        width: 30px;
+        height: 30px;
+        top: 75px;
+        right:10px;
     }
 }

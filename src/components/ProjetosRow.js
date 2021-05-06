@@ -7,7 +7,8 @@ import SetaEsq from '../icons/chevron-left-solid.svg'
 import './ProjetosRow.css'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-export default function ProjetosRow(){
+export default function ProjetosRow({id}){
+
     let carrosel = [<Cacomp/>, <IeeeWars/>, <Lobio/> ]
     const [x, setX] = useState(0)
     const vaiParaEsquerda = ()=>{
@@ -45,7 +46,7 @@ export default function ProjetosRow(){
         }
     }
     return(
-        <div className="Carousel">
+        <div className="Carousel" id={id}>
             {carrosel.map((item,index)=>{
                 return(
                     <div key={index} className="slides" style={{transform:`translateX(${x}%)`}}>
@@ -59,7 +60,7 @@ export default function ProjetosRow(){
             <button id="BtnDir" className="BtnCarrosel" onClick={vaiParaDireita}>
                 <img src={SetaDir} alt="Seta svg" className="BtnIcon"/>
             </button>
-            <div>
+            <div >
                 {SlideAtivo()}
             </div>
         </div>

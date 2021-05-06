@@ -77,10 +77,7 @@
 }
 
 .DireitaSobre{
-    height: 80vh;
     width: 500px;
-    /* background: rgb(250,178,255);
-    background: linear-gradient(223deg, rgba(250,178,255,1) 0%, rgba(25,4,229,1) 100%); */
     border-radius: 25px;
 }
 .Barra{
@@ -121,17 +118,18 @@
 @media screen and (max-width: 767px) {
     .corpoSobre{
         width: 100%;
-        min-height: 100vh;
+        min-height: 10vh;
         overflow: hidden;
         padding: 40px;
         justify-content: center;
-        align-items: center;
+        align-items: cefnter;
     }
     .ImagemEu{
         margin-top: -19px;
         width: 120px;
     }
     .boxPessoal{
+        margin-top: 30px;
         margin-left: auto;
         margin-right: auto;
         position: relative;

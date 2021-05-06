@@ -13,11 +13,12 @@ import {ReactComponent as IconeJava} from '../icons/java-brands.svg'
 import {ReactComponent as IconeFigma} from '../icons/figma-brands.svg'
 import {ReactComponent as IconePs} from '../icons/ps-brands.svg'
 import {ReactComponent as IconeMySql} from '../icons/MySql-brands.svg'
+import {ReactComponent as IconeBootstrap} from '../icons/bootstrap-brands.svg'
 
 
-export default function Sobre (){
+export default function Sobre ({id}){
     return(
-        <div className="corpoSobre">
+        <div className="corpoSobre" id={id}>
             <div className="EsquerdaSobre">
                 <div className="boxPessoal">
                     <img src={ImgEu} className="ImagemEu" alt="Joao Paulo"/>
@@ -54,6 +55,10 @@ export default function Sobre (){
                             <IconeReact className="IconeIcon" />
                             <p>React <br/> Native</p>
                         </div>
+                        <div className="IconeHabilidade" >
+                            <IconeBootstrap className="IconeIcon" fill="white" />
+                            <p>Bootstrap</p>
+                        </div>
                         <div className="IconeHabilidade">
                             <IconeGit className="IconeIcon" />
                             <p>Git</p>
@@ -73,9 +78,6 @@ export default function Sobre (){
                         <div className="IconeHabilidade" >
                             <IconePs className="IconeIcon" fill="white" />
                             <p>Photoshop</p>
-                        </div>
-                        <div>
-                            <p><strong>Outros:</strong> Boa Lógica de programação</p>
                         </div>
                     </div>
                 </div>

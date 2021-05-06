@@ -5,13 +5,14 @@ import Sobre from './components/Sobre'
 import Home from './components/Home'
 import Rodape from './components/Rodape'
 import janelaTamanho from './hooks/TamanhoJanela'
+import Navbar from './components/navbar/index'
 
 export default function App (){
 
 
   const tamanho = janelaTamanho()
 
-  const CarrosselHome = [<Home id="homeApp"/>,  <Sobre id="sobreApp"/>, <Projeto id="projetosApp"/>, <Rodape />] 
+  const CarrosselHome = [<Home id="homeApp"/>,  <Sobre id="sobreApp"/>, <Projeto id="projetosApp"/>] 
   const app = useRef()
   const RolagemContainer = useRef()
   const EfeitoConfigs = {ease: 0.1, current: 0, previous: 0, rounded: 0}
@@ -35,7 +36,7 @@ export default function App (){
     const diferenca = EfeitoConfigs.current - EfeitoConfigs.rounded
     const aceleracao = diferenca / tamanho.largura
     const velocidade = +aceleracao
-    const efeito = velocidade * 7.5
+    const efeito = velocidade * 2.5
 
     RolagemContainer.current.style.transform = `translate3d(0, -${EfeitoConfigs.rounded}px, 0) skewY(${efeito}deg)`;    
     
@@ -45,6 +46,7 @@ export default function App (){
 
   return(
     <div ref={app} className="App">
+      <Navbar className="NavHome"/>
       <div ref={RolagemContainer} >
           {CarrosselHome.map((item,index)=>{
                 return(
