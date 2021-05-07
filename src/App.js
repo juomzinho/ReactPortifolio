@@ -5,13 +5,14 @@ import Sobre from './components/Sobre'
 import Home from './components/Home'
 import janelaTamanho from './hooks/TamanhoJanela'
 import Navbar from './components/navbar/index'
+import Rodape from './components/Rodape'
 
 export default function App (){
 
 
   const tamanho = janelaTamanho()
 
-  const CarrosselHome = [<Home id="homeApp"/>,  <Sobre id="sobreApp"/>, <Projeto id="projetosApp"/>] 
+  const CarrosselHome = [<Home id="homeApp"/>,  <Sobre id="sobreApp"/>, <Projeto id="projetosApp"/>, <Rodape />] 
   const app = useRef()
   const RolagemContainer = useRef()
   const EfeitoConfigs = {ease: 0.1, current: 0, previous: 0, rounded: 0}
