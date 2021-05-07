@@ -26,6 +26,7 @@ export default function App (){
 
   useEffect(() => {
     requestAnimationFrame(() => RolagemEfeito())
+    // eslint-disable-next-line
   }, [])
 
   const RolagemEfeito = () =>{ 
