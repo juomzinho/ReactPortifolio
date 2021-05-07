@@ -3,7 +3,6 @@ import './App.css'
 import Projeto from './components/ProjetosRow'
 import Sobre from './components/Sobre'
 import Home from './components/Home'
-import Rodape from './components/Rodape'
 import janelaTamanho from './hooks/TamanhoJanela'
 import Navbar from './components/navbar/index'
 
@@ -16,6 +15,7 @@ export default function App (){
   const app = useRef()
   const RolagemContainer = useRef()
   const EfeitoConfigs = {ease: 0.1, current: 0, previous: 0, rounded: 0}
+  
   useEffect(() => {
     setBodyHeight();
   }, [tamanho.altura]);
@@ -40,8 +40,7 @@ export default function App (){
 
     RolagemContainer.current.style.transform = `translate3d(0, -${EfeitoConfigs.rounded}px, 0) skewY(${efeito}deg)`;    
     
-    requestAnimationFrame(() => RolagemEfeito())
-  
+      requestAnimationFrame(() => RolagemEfeito())
   }
 
   return(

@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.css'
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 import ImgBanner from '../images/background.png'
 import ImgBannerMB from '../images/background-mb.png'
 import SetaBaixo from '../icons/chevron-down-solid.svg'
